@@ -13,10 +13,10 @@ namespace EntityFrameworkDemo
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class EmployeeDBContext : DbContext
+    public partial class EmployeeModelContainer : DbContext
     {
-        public EmployeeDBContext()
-            : base("name=EmployeeDBContext")
+        public EmployeeModelContainer()
+            : base("name=EmployeeModelContainer")
         {
         }
     
@@ -25,7 +25,7 @@ namespace EntityFrameworkDemo
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<Department> Departments { get; set; }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Department> Departments { get; set; }
     }
 }

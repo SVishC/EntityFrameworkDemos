@@ -41,7 +41,7 @@
         </asp:GridView>
         <br />
         <br />
-        <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=EmployeeDBContext" DefaultContainerName="EmployeeDBContext" EnableFlattening="False" EntitySetName="Departments" Include="Employees">
+        <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=EmployeeModelContainer" DefaultContainerName="EmployeeModelContainer" EnableFlattening="False" EntitySetName="Departments" Include="Employees">
         </asp:EntityDataSource>
     
     </div>

@@ -19,7 +19,7 @@ namespace EntityFrameworkDemo
             this.Employees = new HashSet<Employee>();
         }
     
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Location { get; set; }
     
