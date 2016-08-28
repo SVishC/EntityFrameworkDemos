@@ -1,11 +1,11 @@
 
 ***********************************************************************************************************************
-*
+*MASTER contains Schema First Approach
 *
 * This project demonstrates the method to Use Stored Procedures to insert , udate and delete rows in a Table using 
 * Entity Framework 5.x
 * Below is the SQL Queries to create table insert data and Sps which are used for the demo
-*
+* 
 ***********************************************************************************************************************
 
 Create table Employees
