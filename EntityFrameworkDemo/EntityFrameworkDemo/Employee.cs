@@ -17,6 +17,7 @@ namespace EntityFrameworkDemo
 
         [ForeignKey("DepartmentId")]
         public Department Department { get; set; }
+        public string JobTitle { get; set; }
 
 
 
